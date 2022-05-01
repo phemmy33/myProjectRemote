@@ -1,0 +1,377 @@
+    1  ssh-keygen -t -C "phemmyster@gmail.com"
+    2  su
+    3  sudo
+    4  ssh-keygen -t -C "phemmyster@gmail.com"
+    5  ls
+    6  git clone https://gitlab.com/phemmyster/devopswithnana.git
+    7  ls
+    8  cls
+    9  cd devopswithnana/
+   10  ls
+   11  ls -l
+   12  ls -a
+   13  ls .git
+   14  git config --global user.name "phemmyster33"
+   15  git config --global user.email "phemmyster@gmail.com"
+   16  visual studio code file.txt
+   17  ls
+   18  exit
+   19  ls
+   20  cd az-500/
+   21  cd Allfiles/
+   22  ls
+   23  cd Labs/
+   24  ls
+   25  ls
+   26  cd acr-security/
+   27  ssh-keygen
+   28  ssh-keygen -t ed25519 -C "femi.a@makintouch.com"
+   29  git clone https://github.com/phemmy33/gitdemo.git
+   30  ls 
+   31  cd gitdemo/
+   32  ls
+   33  ls -a
+   34  cd .git/
+   35  ls
+   36  cd ..
+   37  nano names.txt
+   38  ls
+   39  git status
+   40  git add names.txt
+   41  git status
+   42  git commit -m "my first commite today"
+   43  git status
+   44  git log
+   45  touch places.txt countries.txt
+   46  ls
+   47  git status
+   48  ls
+   49  ls
+   50  git status
+   51  git commit -m "I have added 2 more file"
+   52  git push origin main
+   53  git status
+   54  git commmit -m "Added two new files"
+   55  git commit -m "Added two new files"
+   56  git push origin main
+   57  git added .
+   58  git add .
+   59  git commit -m "Added two new files"
+   60  git push origin main
+   61  git branch developer
+   62  git branch tester
+   63  git branch operation
+   64  git remote -v
+   65  git branch
+   66  git checkout developer
+   67  nano devScript.bs
+   68  git status
+   69  git add .
+   70  git status
+   71  git commit -m "My first developer script"
+   72  git status
+   73  git push origin developer
+   74  git checkout main
+   75  git merge developer
+   76  git status
+   77  git push origin main
+   78  ls
+   79  git pull origin main
+   80  ls
+   81  cat countries.txt 
+   82  ls
+   83  git log
+   84  git log -p -1
+   85  git log -p -3
+   86  git log -p -2
+   87  git restore countries.txt
+   88  cat countries.txt 
+   89  git status
+   90  git restore --staged countries.txt
+   91  cat countries.txt 
+   92  git restore --staged countries.txt
+   93  git status
+   94  git restore names.txt
+   95  git status
+   96  git restored --staged countries.txt
+   97  git restore --staged countries.txt
+   98  cat countries.txt 
+   99  git status
+  100  ls
+  101  cd ..
+  102  ls
+  103  mkdir demo2
+  104  ls
+  105  cd demo
+  106  git init
+  107  ls -a 
+  108  git remote add origin https://github.com/phemmy33/demo2.git
+  109  cd ..
+  110  ls
+  111  ls
+  112  cd demo2
+  113  git init
+  114  git remote add origin https://github.com/phemmy33/demo2.git
+  115  git add .
+  116  git commit -m "My app folder"
+  117  git remote add origin https://github.com/phemmy33/demo2.git
+  118  git push origin https://github.com/phemmy33/demo2.git
+  119  git push origin https://github.com/phemmy33/demo2.git
+  120  git push origin main
+  121  git status
+  122  git push -u origin main
+  123  ls
+  124  ls -a
+  125  tgit status
+  126  git status
+  127  git add .
+  128  git commit -m "this should be the 2nd commit msg" 
+  129  git remote add origin http://github.com/phemmy33/demo2.git
+  130  git push origin master
+  131  touch test
+  132  ls
+  133  git status
+  134  git add .
+  135  git reset
+  136  git status
+  137  git add .
+  138  git status
+  139  git reset
+  140  git status
+  141  pwd
+  142  cd ..
+  143  ls
+  144  mkdir demo3
+  145  ls
+  146  cd demo3
+  147  touch file{1..4}
+  148  ls
+  149  git init
+  150  ls
+  151  ls -a
+  152  git add .
+  153  git status
+  154  git commit -m "All file must be upload"
+  155  git reset
+  156  git status
+  157  touch file5
+  158  git status
+  159  git add .
+  160  git reset file5
+  161  git status
+  162  git status
+  163  git remote add origin https://github.com/phemmy33/demo3.git
+  164  git push -u origin main
+  165  git push origin main
+  166  git status
+  167  git add .
+  168  git commit -m "this file 5"
+  169  git push -u origin main
+  170  git push origin master
+  171  cd ..
+  172  ls
+  173  cd demo2
+  174  ls
+  175  cd ..
+  176  cd gitdemo/
+  177  ls
+  178  git branch -a
+  179  git push origin --delete developer 
+  180  git branch -a
+  181  git stash help
+  182  docker --version
+  183  docker container ls
+  184  docker images ls
+  185  docker image ls
+  186  docker --help
+  187  docker --help | less
+  188  docker container run ubuntu
+  189  docker container ls
+  190  docker container run ubuntu sleep 180
+  191  docker container ls
+  192  docker container run ubuntu sleep  60
+  193  docker -version
+  194  cls
+  195  clear
+  196  docker container image ls
+  197  docker images ls
+  198  docker image ls
+  199  docker container run hello-world sleep 120
+  200  docker container ls
+  201  docker container run hello-world 
+  202  docker container run ubuntu sleep 120
+  203  docker container run ubuntu -it /bin/bash
+  204  git clone https://gitlab.com/nerdster1/gitpractise.git
+  205  ls
+  206  cd gitpractise/
+  207  touch index.html
+  208  touch style.css
+  209  touch script.js
+  210  touch script.py
+  211  ls
+  212  git add .
+  213  git status
+  214  git commit -m "Adding all necessary files"
+  215  git status
+  216  git push origin main
+  217  git status
+  218  git pull origin main
+  219  git status
+  220  ls
+  221  cat index.html 
+  222  clear
+  223  git branch developer
+  224  git branch tester
+  225  git branch -a
+  226  git checkout developer
+  227  touch bash.bs
+  228  git pull origin developer
+  229  git push origin developer
+  230  git staus
+  231  git status
+  232  git add .
+  233  git commit -m " added bash.bs to developer branch"
+  234  git push origin developer
+  235  git checkout main
+  236  git merge developer
+  237  git push origin main
+  238  ls
+  239  cd ..
+  240  ls
+  241  mkdir gitNana
+  242  cd gitNana/
+  243  cd ..
+  244  ls
+  245  git clone https://github.com/phemmy33/gitWithNana.git
+  246  ls
+  247  rmdir gitNana/
+  248  ls
+  249  cd gitWithNana/
+  250  ls
+  251  ls -a
+  252  ls .git
+  253  ls
+  254  clear
+  255  vim README.md
+  256  ls
+  257  git status
+  258  git add .
+  259  git status
+  260  vim README.md 
+  261  git commit 
+  262  git status
+  263  git log
+  264  git push
+  265  cd ..
+  266  mkdir myProject
+  267  touch index.html
+  268  touch style.css
+  269  touch script.js
+  270  touch test.py
+  271  ls
+  272  mv index.html myProject/
+  273  ls
+  274  mv style.css myProject/
+  275  mv script.js myProject/
+  276  ls
+  277  mv test.py myProject/
+  278  cd myProject/
+  279  ls
+  280  clear
+  281  git status
+  282  git init
+  283  git status
+  284  git add .
+  285  git status
+  286  git commit
+  287  git status
+  288  clear
+  289  git log
+  290  git push
+  291  git remote add origin https://github.com/phemmy33/myProjectRemote.git
+  292  git branch -M main
+  293  git remote add origin https://github.com/phemmy33/myProjectRemote.git
+  294  git push
+  295  rm -rf .git/
+  296  git push
+  297  git remote add origin https://github.com/phemmy33/myProjectRemote.git
+  298  git init
+  299  git remote add origin https://github.com/phemmy33/myProjectRemote.git
+  300  git push
+  301  git status
+  302  git add .
+  303  vim index.html 
+  304  git add .
+  305  git commit -m "ready to commit all"
+  306  git push
+  307  git branch -a
+  308  git branch -d master
+  309  git branch -a
+  310  git pull
+  311  ls
+  312  git branch --set-upstream-to=origin/ bug/login master
+  313  git checkout bug/login
+  314  git status
+  315  git branch --set-upstream-to=origin bug/login master
+  316  git branch
+  317  clear
+  318  git branch
+  319  git pull
+  320  git branch
+  321  git checkout feature/auth-user
+  322  git pull
+  323  ls
+  324  touch names.txt
+  325  touch cities.txt
+  326  git add .
+  327  git commit -m "2 new files added"
+  328  git push
+  329  git branch -a
+  330  git checkout main
+  331  git pull
+  332  git checkout -b feature/database-conn
+  333  git brach -a
+  334  git branch -a
+  335  ls
+  336  touch db.txt
+  337  ls
+  338  git status
+  339  git restore
+  340  git reset db.txt
+  341  git status
+  342  git status
+  343  rm db.txt 
+  344  ls
+  345  git status
+  346  vi README.md
+  347  ls
+  348  nano README.md 
+  349  ls
+  350  git add .
+  351  ls
+  352  git push
+  353  git checkout main
+  354  git checkout bugfix
+  355  git branch bugfix
+  356  git status
+  357  touch app.js
+  358  touch db.conn
+  359  git add .
+  360  git commit 
+  361  ls
+  362  cat README.md 
+  363  clear
+  364  git push
+  365  git branch -a
+  366  git checkout bugfix
+  367  ls
+  368  touch new.txt
+  369  touch new2.txt
+  370  git add .
+  371  git commit -m "add all"
+  372  git push
+  373  git checkout main
+  374  git merge bugfix
+  375  ls
+  376  history
+  377  history > gitCmd.txt
